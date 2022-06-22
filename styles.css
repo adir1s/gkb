@@ -1,0 +1,76 @@
+.parallax-container {
+    height: 1000px;
+  }
+
+body {
+    background-image: url("./images/yoichi-asakawa-lore-art.jfif");
+    background-repeat: repeat-y;
+}
+
+
+h3 {
+    text-align: center;
+    color: cornsilk;
+}
+
+.k-card {   
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+img.activator {
+    background-color: #121212;
+    border: solid 3px;
+	border-image: linear-gradient(90deg, purple, orange) 1;
+	padding: .5em;
+    object-fit: cover;
+    object-position: 0px;
+    transition: transform .5s;
+    height: 400px;
+}
+
+img.activator:hover {
+    transform: scale(1.1);
+}
+
+.card-content {
+    font-size: 20px;
+    border: solid 3px;
+	border-image: linear-gradient(90deg, purple, orange) 1;
+	padding: .5em;
+    color: cornsilk;
+    background-color: #191919;
+}
+
+.card-reveal {
+    background-color: #121212;
+}
+
+.perk {
+    height: 75px;
+}
+
+.build-desc {
+    font-size: 18px;
+    position: relative;
+    bottom: 30px;
+}
+
+.perk-card span {
+    display: none;
+    font-weight: bold;
+    font-size: 14px;
+    color: #121212;
+    position: relative;
+    bottom: 30px;
+}
+
+.perk-card span a {
+    color: aquamarine;
+
+}
+
+.perk-card:hover span {
+    display: inline;
+}
+
